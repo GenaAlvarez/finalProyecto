@@ -4,7 +4,7 @@ import productsRouter from './routes/product.router.js';
 import cartsRouter from './routes/carts.router.js';
 import viewsRouter from './routes/views.router.js';
 import { Server } from 'socket.io';
-import ProductManager from './dao/controllers/product-manager.js';
+import "./dataBase.js";
 
 const app = express();
 const PUERTO = 8080;

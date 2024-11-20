@@ -2,7 +2,7 @@ import express from 'express'
 import ProductManager from '../dao/controllers/product-manager.js';
 
 const router = express.Router();
-const productManager = new ProductManager('./src/dao/models/productos.json')
+
 
 router.get("/products", async (req, res) => {
     try {
